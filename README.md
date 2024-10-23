@@ -33,6 +33,11 @@ cd jackie
 
 ```cat <file_with_urls> | python3 jackie.py [-o <output_file>]```
 
+(For BB hunters)
+
+
+```cat scope | subfinder -recursive | httpx-toolkit -mc 200 | python3 clickjacker.py -o jackie.txt```
+
 ### Options
 
 ```-o, --output: Specify a file to save vulnerable URLs.```
